@@ -27,7 +27,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oUg985itrOTozxcg6-3-TQ69ZAsU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '2iEtJj95vWLdDHiVJ994fLeTloHQTNcazgXGzMZr1W8',
+      useTemplateId: '62KZU7_MzsPxseWskSfFl6LBOGbZ_r1mkufFPVIKM3o',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-28',
       festivals: [
@@ -54,7 +54,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oUg985oTvkq9yIW6AgtexJFyJARw',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '2iEtJj95vWLdDHiVJ994fLeTloHQTNcazgXGzMZr1W8',
+      useTemplateId: '62KZU7_MzsPxseWskSfFl6LBOGbZ_r1mkufFPVIKM3o',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-28',
       festivals: [
@@ -69,6 +69,7 @@ const USER_CONFIG = {
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
+        { keyword: 'encourage_oneself', contents: '小马说今天要给你一个么么哒，不过明天给你什么还没想好。' },
     // 在一起的日子
         { keyword: 'love_day', date: '2023-07-28' },
         // 结婚纪念日
