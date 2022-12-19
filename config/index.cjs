@@ -85,6 +85,12 @@ const USER_CONFIG = {
     }
   ],
 
+},
+  SLOT_LIST: [
+    // 这样配置的话，就会每次发送这句话
+    { keyword: 'encourage_oneself', contents: '今天给你一个么么哒，明天给什么明天我再想想！' },
+
+  ],
 }
 
 module.exports = USER_CONFIG
