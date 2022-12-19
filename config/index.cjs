@@ -75,6 +75,9 @@ const USER_CONFIG = {
         // 结婚纪念日
         { keyword: 'marry_day', date: '2023-11-12' }
       ],
+      SLOT_LIST: [
+    // 这样配置的话，就会每次发送这句话
+    { keyword: 'encourage_oneself', contents: '今天给你一个么么哒，明天给什么我再想想！' },
     },
   ],
 
