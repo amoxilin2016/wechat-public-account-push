@@ -77,7 +77,7 @@ const USER_CONFIG = {
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '	kW-1xK45XGq8MqEnbd9fSAjS2egURNogpcxzq1jwC-s',
 
-  CALLBACK_USERS: [
+  CALLBACK_USERS:[
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
@@ -88,7 +88,7 @@ const USER_CONFIG = {
 },
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '今天给你一个么么哒，明天给什么明天我再想想！' },
+    { keyword: 'encourage_oneself', contents: '今天给你一个么么哒，明天给什么明天我再想想！' }
 
   ],
 }
