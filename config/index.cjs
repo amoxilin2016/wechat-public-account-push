@@ -156,5 +156,3 @@ const USER_CONFIG = {
   CALLBACK_TEMPLATE_ID: '	kW-1xK45XGq8MqEnbd9fSAjS2egURNogpcxzq1jwC-s',
 }
 module.exports = USER_CONFIG
-
-
