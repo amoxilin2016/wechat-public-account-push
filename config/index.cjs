@@ -15,7 +15,11 @@ const USER_CONFIG = {
 
   PROVINCE: '天津',
   CITY: '天津',
-
+  SWITCH: {
+  
+    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    earthyLoveWords: true,
+  },
   USERS: [
     {
       // 想要发送的人的名字
@@ -29,16 +33,19 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '琦琦', year: '1999', date: '07-28',
+          type: '生日', name: '琦琦', year: '1999', date: '07-28',isShowAge: true,
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '小马', year: '1997', date: '11-12',
+          type: '生日', name: '小马', year: '1997', date: '11-12',isShowAge: true,
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
-        // 在一起的日子
+    // 在一起的日子
+        { keyword: 'love_day', date: '2023-07-28' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2023-11-12' }
       ],
     },
   ],
